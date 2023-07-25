@@ -8,6 +8,14 @@ int main(){
     printf("Enter the second String: ");
     gets(str2);
     while(str1[i]!='\0'){
-        str3[]
+        str3[i] += str1[i];
+        i++;
     }
+    while(str2[j]!='\0'){
+        str3[i] += str2[j];
+        i++;
+        j++;
+    }
+    str3[i] = '\0';
+    printf("The Concatenated String is: %s", str3);
 }
