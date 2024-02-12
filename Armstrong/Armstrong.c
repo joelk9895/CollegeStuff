@@ -11,7 +11,7 @@ int pwr(int a, int b){
 }
 
 int main(){
-    int arm=0,temp=0,temp2 = 0, power=0,sum=0;
+    int arm=0,temp=0,temp2 = 0, power=0,sum=0, expression = 1;
     printf("Enter the number: ");
     scanf("%d", &arm);
     temp = arm;
@@ -29,5 +29,14 @@ int main(){
     }
     else{
         printf("It is not");
+    }
+    switch (expression)
+    {
+    case 1:
+        printf("Hi");
+        break;
+    
+    default:
+        break;
     }
 }

@@ -1,0 +1,8 @@
+0 brown
+1 fence
+2 fox
+3 jumped
+4 over
+5 quick
+6 The
+7 the
