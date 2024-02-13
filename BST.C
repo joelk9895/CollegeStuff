@@ -63,6 +63,12 @@ void postorderTraversal(struct node *root)
         printf("%d ", root->data);
     }
 }
+void deleteNode(struct node *root, int data){
+    if(root == NULL){
+        return;
+    }
+    
+}
 
 int main()
 {
